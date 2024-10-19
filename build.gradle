@@ -4,7 +4,7 @@ plugins{
 }
 
 group = 'me.numilani'
-version = '1.4.2_mc1.21'
+version = '1.4.3_mc1.21'
 
 repositories {
     mavenCentral()
@@ -28,15 +28,15 @@ repositories {
 }
 
 dependencies {
-    compileOnly "org.spigotmc:spigot-api:1.21-R0.1-SNAPSHOT"
+    compileOnly "org.spigotmc:spigot-api:1.21.1-R0.1-SNAPSHOT"
     compileOnly 'org.xerial:sqlite-jdbc:3.40.1.0'
-    compileOnly 'com.bergerkiller.bukkit:BKCommonLib:1.21-v1-SNAPSHOT'
+    compileOnly 'com.bergerkiller.bukkit:BKCommonLib:1.21.1-v2-SNAPSHOT'
     compileOnly 'com.bergerkiller.bukkit.regionchangetracker:BKCommonLib-RegionChangeTracker-Core:1.2'
     compileOnly 'org.incendo:cloud-paper:2.0.0-beta.8'
     compileOnly 'org.incendo:cloud-annotations:2.0.0-rc.2'
     compileOnly 'org.incendo:cloud-minecraft-extras:2.0.0-beta.8'
     implementation 'com.google.guava:guava:32.1.2-jre'
-    implementation 'io.github.bananapuncher714:nbteditor:7.18.6'
+    implementation 'io.github.bananapuncher714:nbteditor:7.19.5'
 }
 
 def targetJavaVersion = 21
