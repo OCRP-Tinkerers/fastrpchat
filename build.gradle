@@ -4,7 +4,7 @@ plugins{
 }
 
 group = 'me.numilani'
-version = '1.4.3_mc1.21'
+version = '1.4.4_mc1.21'
 
 repositories {
     mavenCentral()
@@ -25,9 +25,13 @@ repositories {
     maven {
         url = 'https://repo.codemc.org/repository/maven-public'
     }
+    maven {
+        url = 'https://jitpack.io'
+      }
 }
 
 dependencies {
+    compileOnly 'com.github.MilkBowl:VaultAPI:1.7'
     compileOnly "org.spigotmc:spigot-api:1.21.1-R0.1-SNAPSHOT"
     compileOnly 'org.xerial:sqlite-jdbc:3.40.1.0'
     compileOnly 'com.bergerkiller.bukkit:BKCommonLib:1.21.1-v2-SNAPSHOT'

@@ -4,6 +4,7 @@ main: me.numilani.fastrpchat.FastRpChat
 api-version: '1.20'
 depend:
   - BKCommonLib
+  - Vault
 commands:
   ch:
     description: "Switch chat ranges, or send a single message in a specified range."
